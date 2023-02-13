@@ -1,4 +1,4 @@
-# CanvasFileRenamer
+# Canvas File Renamer
 
 ## Overview
 
@@ -17,7 +17,8 @@ To start the program, navigate to the directory containing `FolderScript.java` u
 
 Once the program is run in the command line, you will be prompted to enter some information
 about the directory you want to edit. Provide either an absolute or relative path to this folder,
-and the confirm that the files displayed in the terminal are the ones you want to edit.
+and the confirm that the files displayed in the terminal are the ones you want to edit. Be sure this folder is not zipped,
+as the program does not currently unzip files for you.
 
 **Note: this program does not create a copy of the directory before altering filenames, so be sure you are operating over
 the correct folder, because the changes will be difficult to undo.**
