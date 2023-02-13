@@ -23,8 +23,8 @@ and the confirm that the files displayed in the terminal are the ones you want t
 the correct folder, because the changes will be difficult to undo.**
 
 After the filenames are edited, warning messages will appear in the terminal if a revised filename
-contains characters or patterns that break filenaming conventions, like certain special characters or
+contains characters or patterns that break filenaming conventions, like containing certain special characters or
 starting with an uppercase letter.
 
 When the program is finished, the original directory should contain copies of the files with leading Canvas
-metadata stripped out.
+metadata stripped out of the filename.
