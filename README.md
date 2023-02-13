@@ -21,7 +21,7 @@ and the confirm that the files displayed in the terminal are the ones you want t
 as the program does not currently unzip files for you.
 
 **Note: this program does not create a copy of the directory before altering filenames, so be sure you are operating over
-the correct folder, because the changes will be difficult to undo.**
+the correct folder, because there is currently no functionality in this program to undo a batch-rename.**
 
 After the filenames are edited, warning messages will appear in the terminal if a revised filename
 contains characters or patterns that break filenaming conventions, like containing certain special characters or
