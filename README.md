@@ -8,10 +8,10 @@ This is a tool intended for instructors of the Computer Methods in the Humanitie
 
 In order to use this program, it is necessary to [download Java](https://www.java.com/en/download/manual.jsp).
 
-To start the program, navigate to the directory containing `FolderScript.java` using the command line. Once you are there, input the following commands:
+To start the program, navigate to the directory containing `FileRenamer.java` using the command line. Once you are there, input the following commands:
 
-1. `javac FolderScript.java` will compile the program, and
-1. `java FolderScript` will run it 
+1. `javac FileRenamer.java` will compile the program, and
+1. `java FileRenamer` will run it 
 
 ## How to use the program
 
