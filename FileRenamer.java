@@ -1,13 +1,13 @@
 import java.io.File;
 import java.util.Scanner;
 
-public class FolderScript
+public class FileRenamer
 { 
 	public static void main(String [] args)
 	{
         Scanner scan = new Scanner(System.in);
         String pathname = "/";
-        System.out.print("Provide path to homework directory (leave blank if in current directory): ");
+        System.out.print("\nProvide path to homework directory (leave blank if in current directory): ");
         pathname = scan.next();
         if(pathname.endsWith("/"))
         {
@@ -23,7 +23,7 @@ public class FolderScript
         final int warningSize = 20;
         String permission = "no";
 
-        System.out.println("About to rename the following files:");
+        System.out.println("\nAbout to rename the following files:");
         for (File file : listOfFiles) 
         {
             if (file.isFile()) 
@@ -47,13 +47,12 @@ public class FolderScript
 
         if (permission.toLowerCase().equals("y") || permission.toLowerCase().equals("yes"))
         {
-            System.out.println();
             for (File file : listOfFiles) 
             {
                 if (file.isFile()) 
                 {
                     String filename = file.getName();
-                    String newFileName = filename.replaceAll("^.+?_.+?_.+?_","");
+                    String newFileName = filename.replaceAll("^.+?_(LATE_)?.+?_.+?_","");
                     File newFile = new File (pathname+"/"+newFileName);
                     if (file.renameTo(newFile))
                     {
